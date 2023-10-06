@@ -1,636 +1,467 @@
+
 *{
 	padding: 0px;
 	margin: 0px;
 }
 body{
-	font-family: 'Source Code Pro', monospace;
-	font-size: 14px;
-	line-height: 1.7em;
-	background: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Source Code Pro', monospace;
-
+	font-family: 'Alfa Slab One', cursive;
 }
-img{
-	max-width: 100%;
-	height: auto;
-}
-
 a{
 	text-decoration: none;
 }
 a:hover{
 	text-decoration: none;
 }
-
-
-
-/*responsive start*/
-.navbar-toggler{
-	border: 1px solid #08c !important;
-
+img{
+	max-width: 100%;
 }
-.navbar-toggler:hover{
-	color: black;
-	background: red;
-	transition: 1s;
-}
-.navbar-toggler:focus{
-	color: yellow;
-	background: transparent;
-}
-.navbar-toggler .fa{
-	color: white;
-}
-/*stick up css*/
-
-.header .navbar-wrapper{
-  width: 100%;
-  margin-top:0px;
-  position: relative;
-  z-index: 15;
-}
-.header .isStuck{
-    left:0px;
-    width:100%;
-    background: #08c;
-}
-/*stic up css end*/
-
+/*global css start*/
 
 /*global css start*/
-.title{
+.rafi{
 	width: 100%;
-	padding: 0px 0px 80px;
-}
-.title h4{
-	font-size: 18px;
-	font-weight: 600;
-	color: black;
+	padding: 80px 0px;
+	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 1.2em;
-
+	letter-spacing: 5px;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	background: #eee;
+	box-shadow: 10px 11px 12px #ccc;
 }
-.title h1{
-	margin: 15px 0px;
-	font-size: 34px;
-	line-height: 1.2em;
-	color: red;
-	font-weight: 600;
-
-}
-/*number counter css start*/
 .number-counter{
 	width: 100%;
-	padding: 120px 0px;
-	background: black;
+	padding: 100px 0px 200px 0px;
+	
 }
 .counter-box{
 	width: 100%;
-	padding: 50px;
+	padding: 40px;
 	border: 2px solid #08c;
 	text-align: center;
 	border-radius: 10px;
-	box-shadow: 12px 15px 16px white;
+	box-shadow: 10px 11px 12px black;
+	transition: 1s;
 }
 .counter-box:hover{
-	background: #08c;
-	transition: 1s;
+	color: white;
+	background: black;
 }
 .counter-box .fa{
 	font-size: 90px;
-	color: white;
+	color: #08c;
 }
 .counter-box h1{
 	font-size: 90px;
-	color: white;
+	color: #08c;
 	font-weight: bold;
-}
-.counter-box h4{
-		font-size: 20px;
-	color: red;
-	font-weight: bold;
-}
-
-.heading{
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: 2px;
-	line-height: 1.7em;
-	color: black;
-	font-weight: bold;
-	font-size: 80px;
-	padding: 80px 0px;
-	background: #08c;
-   box-shadow: 13px 17px 18px white;
 
 }
 
-.heading:hover{
-	background: transparent;
-	color: white;
-	transition: 1s;
-}
-/*number counter css end*/
+/*global start end*/
 
-/*global css end*/
-/*header part start*/
+
+
+/*header part css start*/
 .header{
 	width: 100%;
 	background: url("../images/bg1.jpg") center top no-repeat;
 	background-size: cover;
+	padding: 0px 0px;
 	
 }
 .header .top-menu{
 	width: 100%;
-	background: red;
+	background: black;
 	color: white;
 	text-align: center;
+	padding: 10px 20px 10px 10px;
+
 }
-.header .navbar-expand-lg .navbar-nav .nav-link{
-	color: white;
+.main-menu .logo{
+	margin: 15px 0px 0px;
+}
+.main-menu .text-right{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 20px 2px  0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
 	font-size: 16px;
+	text-transform: uppercase;
 	font-weight: 600;
-	text-transform: capitalize;
-	margin: 0px 0px 0px 10px;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 20px;
+	color: #3d2514;
 }
-/*.header .navbar-nav .nav-link.active{
-	background: url("../images/lg2.png") center bottom no-repeat;
-	background-size: auto;
-*/
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #bf2222;
 }
-/*.header .navbar-expand-lg .navbar-nav .nav-link:hover{
-	background: url("../images/lg2.png") center bottom no-repeat;
-	background-size: auto;
-	transition: 1s;
-}*/
-/*header part end*/
-/*banner part start*/
+/*header part css end*/
+
+/*bannner start*/
 .banner{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 40px 0px;
 }
 .inner-banner{
 	width: 100%;
-	padding: 40px 0px;
+	margin: 38px 0px 0px;
+}
+.inner-banner h5{
+	  font-family: 'Bebas Neue', sans-serif;
+	  font-size: 24px;
+	  line-height: 1.2em;
+	  color: #3d2514;
+	  font-weight: 300;
+	  letter-spacing: 1px;
 }
 
-.inner-banner h4{
-	font-size: 18px;
-	font-weight: 600;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 1.2em;
+.inner-banner h5 span{
+	margin: 0px 0px 15px;
+	padding: 10px;
+	border: 2px solid dashed #3d2514;
+	display: inline-block;
+
 }
 .inner-banner h1{
-	margin: 15px 0px;
-	font-size: 34px;
-	line-height: 1.2em;
-	color: white;
-	font-weight: 600;
-}
-.inner-banner p{
-	width: 100%;
-	font-size: 14px;
-	font-weight: 400;
-	color: white;
-	line-height: 1.7em;
-
-}
-.inner-btn{
-	width: 100%;
-	padding: 40px 0px;
-}
-.inner-btn .btn-primary{
-	padding: 15px 45px;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: white;
-	background: red;
-	border: 1px solid white;
-	border-radius: 5px;
-	transition: 1s;
-	margin: 0px 0px 0px 10px;
-}
-.inner-btn .btn-primary:hover{
-	color: white;
-	background: black;
-}
-.inner-btn .btn-primary:focus{
-	color: white;
-	background: transparent;
-}
-.inner-btn .btn-light{
-	padding: 15px 45px;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: white;
-	background: transparent;
-	border: 1px solid white;
-	border-radius: 5px;
-	transition: 1s;
-	margin: 0px 0px 0px 10px;
-}
-.inner-btn .btn-light:hover{
-	color: black;
-	background: white;
-}
-.inner-btn .btn-light:focus{
-	color: red;
-	background: transparent;
-}
-/*banner part end*/
-
-
-
-/*features  part start*/
-.feature{
-	width: 100%;
-	padding: 80px 0px;
-
-}
-.feature .title{
-	text-align: center;
-	padding: 0px 0px 40px;
-}
-.inner-feature{
-	width: 100%;
-	text-align: center;
-	padding: 25px 6px;
-}
-.inner-feature h4{
-	font-size: 25px;
-	line-height: 1.2em;
-	color: red;
-	font-weight: 500;
-}
-
-.inner-feature p{
-	font-size: 16px;
-	line-height: 1.7em;
-	color: black;
-	font-weight: 400;
-}
-.inner-feature .icon{
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	border: 1px solid #f2f2;
-	border-radius: 100%;
-	margin: 0px auto 20px;
-}
-/*feature part end*/
-
-/*about long part start*/
-.about-long{
-	width: 100%;
-	padding: 80px 0px;
-	border: 1px solid #eee;
-}
-.about-long .title{
-	padding: 45px 0px 20px;
-}
-.about-long .title p{
-	width: 70%;
-	font-size: 16px;
-	line-height: 1.7em;
-	color: black;
-	font-weight: 400;
-}
-.about-long .title h1{
-	font-size: 35px;
-}
-.about-long ul{
-	padding: 0px;
-	margin: 30px 0px 0px 15px;
-	list-style: none;
-}
-.about-long ul li{
-	font-size: 16px;
+	font-size: 60px;
 	font-weight: bold;
-	margin: 0px 0px 15px;
-}
-.about-long ul li i{
-	margin: 0px 20px 0px 0px;
-	width: 14px;
-	height: 13px;
-
-}
-/*about long part end*/
-
-
-/*about short part start*/
-
-.about-short{
-	width: 100%;
-	padding: 80px 0px;
-	background: #f2f2f2;
-}
-.about-short .title{
-	padding: 100px 0px 20px;
-}
-
-.about-short h1{
-	font-size: 36px;
-}
-.about-short p{
-	font-size: 16px;
-	line-height: 1.7em;
-	color: darkblue;
-	font-weight: 400;
-}
-
-/*about short part end*/
-/*testimonials start*/
-.testimonials{
-	width: 100%;
-	padding: 80px 0px;
-	background: url("../images/bg11.jpg") center top no-repeat;
-	background-size: cover;
-}
-.testimonials .title{
-	text-align: center;
-}
-.testimonials .title h1{
-	color: white;
-}
-.testimonials .owl-carousel .item h4{
-	font-size: 22px;
-	line-height: 1.6em;
-	color: red;
-	font-style: italic;
-	font-weight: 600;
-	margin: 0px 0px 25px;
-}
-.testimonials .owl-carousel .item img{
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
-}
-
-.testimonials .owl-carousel .item h5{
-	font-size: 16px;
 	line-height: 1.2em;
-	color: white;
-	font-weight: 500;
+	color: #3d2514;
 	text-transform: uppercase;
-	margin: 20px 0px 0px;
+	letter-spacing: 5px;
+	text-shadow: 5px 4px #fff;
 }
-.testimonials .owl-carousel .item p{
-	font-size: 14px;
-	line-height: 1.7em;
-	color: white;
-	font-weight: 500;
+.inner-banner h3{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #3d2514;
 	text-transform: uppercase;
+	letter-spacing: 5px;
 	
 }
+/*banner end*/
 
-
-.testimonials .owl-carousel .owl-nav button.owl-next, .testimonials .owl-carousel .owl-nav button.owl-prev, .testimonials .owl-carousel button.owl-dot {
-    margin: 60px 0px 0px;
+/*feature part start*/
+.feature{
+	margin: 0px 0px 40px 0px;
+	padding: 0px 70px;
 }
-.testimonials .slider .owl-theme .owl-dots .owl-dot.active span, .slider .owl-theme .owl-dots .owl-dot:hover span {
-	background: #ffc045;
+.feature .card{
+	margin: 0px 0px 5px;
+	border: 0px;
+}
+.feature .card h5{
+	margin: 20px 0px 0px;
+	color: white;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
 
-	}
-.testimonials .slider .owl-theme .owl-dots .owl-dot span{
+}
+.feature .card h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: white;
+	letter-spacing: 1px;
+}
+/*feature end*/
+
+/*choose start*/
+
+.choose{
+	width: 100%;
+	padding: 20px 0px 80px;
+
+}
+.choose .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+
+.choose .title h3{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 300px;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.choose .title h3 span{
+	padding: 10px;
+	margin: 0px 0px 15px;
+	display: inline-block;
+	background: #ffc045;
+}
+.choose .title h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.choose .title p{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: red;
+}
+.choose-inner{
+
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.choose-inner .img-fluid{
+	width: 100%;
+	margin: 0px 0px 10px;
+	height: 245px;
+	text-transform: uppercase;
+
+}
+
+.choose-inner  h4{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	color: red;
+
+}
+.choose-inner p{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: black;
+}
+
+.choose-inner .btn-danger{
+	display: inline-block;
+	padding: 10px 40px;
+	font-size: 20px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	border-radius: 0px;
+	border: 1px solid red;
+	color: #fff;
+	background: #bf2222;
+	transition: 1s;
+
+ 
+}
+.choose-inner .btn-danger:hover{
+	color: #bf2222;
+	background: #fff;
+}
+
+.choose-inner .btn-danger:focus{
+	color: white;
+	background: green;
+}
+/*choose end*/
+
+/*slider start*/
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+}
+.slider .owl-carousel{
+	width: 100%;
+	padding: 80px 0px;
+	box-shadow: 0px 6px 10px #fff;
+}
+.slider .item h4{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: red;
+	letter-spacing: 1px;
+}
+.slider .item h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+.slider .item p{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: darkslateblues;
+}
+.slider .owl-theme .owl-nav.disabled+.owl-dots {
+    /* margin-top: 10px; */
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
+}
+.slider .owl-theme .owl-dots .owl-dot.active span, .slider .owl-theme .owl-dots .owl-dot:hover span {
+	background: #ffc045;
+}
+.slider .owl-theme .owl-dots .owl-dot span{
 	width: 15px;
 	height: 15px;
-	background: transparent;
-
 }
 
+/*slider end*/
 
-/*testimonials end*/
-/*eyecatchere start here*/
-.eyecatcher{
+
+
+/*form start*/
+.contact-section{
 	width: 100%;
-	padding: 35px 0px;
-	background: black;
+	padding: 80px 0px 120px;
+	background: url(../images/bg2.png) center top no-repeat;
+	background-size: cover;
 }
-.eyecatcher h1{
-	font-size: 42px;
-	margin: 0px;
-	color: white;
-	font-weight: bold;
-}
-.eyecatcher span{
-	font-weight: 300;
-}
-.eyecatcher .inner-btn{
-	padding: 0px;
-}
-.eyecatcher .inner-btn .btn-danger{
-	margin: 0px 20px 0px 0px;
-	transition: 1s;
-}
-.eyecatcher .inner-btn .btn-danger:hover{
-	color: white;
-	background: black;
-}
-.eyecatcher .inner-btn .btn-info:hover{
-	color: white;
-	background: black;
-	transition: 1s;
-}
-
-/*eyecatchere end here*/
-
-/*pricing plan start here*/
-.price-plan{
+.contact-section .tittle{
 	width: 100%;
-	padding: 80px 0px;
-}
-.price-plan .title{
+	padding: 0px 0px  80px;
 	text-align: center;
+
 }
-.inner-price{
-	width: 100%;
-	border: 1px solid #eee;
-	text-align: center;
-}
-.inner-price .price-head{
-	width: 100%;
-	padding: 25px 0px;
-	border-bottom: 1px solid #eee;
-	transition: 1s;
-}
-.inner-price .price-head h2{
-	font-size: 28px;
-	font-weight: 500;
+.contact-section .tittle h2{
+	font-size: 56px;
 	text-transform: uppercase;
-	margin: 0px;
-}
-.inner-price .main-price{
-	width: 100%;
-	padding: 35px 0px;
-	border-bottom: 1px solid #eee;
-	transition: 1s;
-}
-.inner-price .main-price h1{
-	font-size: 80px;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 0px 0px -10px;
-}
-.inner-price .main-price p{
-	font-size: 14px;
 	font-weight: 400;
-	color: #999;
-	margin: 0px;
-}
-
-.inner-price .main-price h1 sup{
-	font-size: 40px;
-	top: -39px;
-}
-.inner-price .price-content{
-	width: 100%;
-	padding: 40px 5px 20px;
-
-}
-
-.inner-price .price-content p{
-	width: 80%;
-	font-size: 14px;
-	font-weight: 400;
-	color: #000;
-	margin: 0px auto 40px;
-
-}
-
-.inner-price .price-content p a{
-	color: #008ed6;
-	font-weight: 500;
-	text-decoration: none;
-}
-
-.inner-price .price-content .btn-primary{
-	padding: 10px 30px;
-	border-radius: 2px;
-	border: 1px solid #eee;
+	line-height: 1.2em;
+	color: #3d5124;
 	letter-spacing: 1px;
-	font-weight: 600;
-	background: transparent;
-	color: #008ed6;
+}
+
+.contact-section .main-form{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.contact-section .main-form .form-control{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 15px;
+	padding: 15px;
 	text-transform: uppercase;
+	font-weight: 500;
+	color: #3d2514;
+	border: 1px solid red;
+	border-radius: 5px;
 }
-
-/*.inner-price:hover .price-head{
-	background: #008ed6;
+.contact-section .main-form .btn-danger{
+	font-family: 'Alfa Slab One', cursive;
+	display: block;
+	padding: 15px;
+	border: 1px solid #bf2222;
+	color: white;
+	background: #bf2222;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 1s;
 }
-*/
-.inner-price .price-head h2{
-	color: #008ed6;
-}
-.inner-price:hover .main-price{
-	background: #008ed6;
-	
-
-}
-.inner-price h1, .inner-price:hover .main-price{
+.contact-section .main-form .btn-danger:hover{
+	background: white;
 	color: black;
 }
-.inner-price:hover .price-content .btn-primary:hover{
-	background: #006ed6;
-	color: #fff;
-	border: 1px solid #eee;
-	transition: 1s;
-}
-/*pricing plan end here*/
-/*contact section start*/
-.contact-us{
-	width: 100%;
-	padding: 80px 0px 20px;
-	background: #eee;
-}
-.contact-us .title{
-	text-align: center;
-}
-.contact-us .info{
-	width: 100%;
-	text-align: center;
-}
-.contact-us .info i{
-	margin: 0px 0px 0px 20px;
-}
-.contact-us .info p{
-	font-size: 14px;
-	color: red;
-	line-height: 1.7em;
+
+
+.contact-section .main-form .form-control:focus{
+	box-shadow: 0 0 0 0 25rem;
 }
 
-/*contact section end*/
 
-/*contact form start*/
-.main-form{
-	width: 100%;
-	padding: 40px 70px;
-	background: black;
-	margin: 60px 0px 70px;
-	position: relative;
-	z-index: 1;
-}
-.main-form .form-control{
-	font-size: 14px;
-	text-transform: uppercase;
-	padding: 15px;
-	background: transparent;
-	border: 1px solid #999999;
-	border-radius: 2px;
-	letter-spacing: 2px;
-	font-weight: 400;
-}
-  .main-form .text-right{
-	text-align: right;
-}
-.main-form  .btn-primary{
-	padding: 18px 40px;
-	background: #008ed6;
-	color: #fff;
-	border: 1px solid #008ed6;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 600;
-	border-radius: 2px;
-	transition: 1s;
-}
-.main-form  .btn-primary:hover{
-	background: transparent;
-	color: white;
-}
-/*contact form end*/
+/*form end*/
 
-/*footer start*/
+/*fotter start*/
 
 .footer{
-    width: 100%;
-    padding: 30px 0px 8px;
-    background: #000;
-    text-align: center;
+	width: 100%;
+	padding: 10px 0px 0px 40px;
 }
-.footer p{
-    font-size: 16px;
-    line-height: 1.7em;
-    color: #fff;
+.main-footer{
+	width: 100%;
+	padding: 80px 25px 10px;
+	background: #eee;
+	/*background: url(../images/bg24.jpg) center top no-repeat ;
+	background-size: cover;*/
 }
-.inner-footer{
-    margin: 10px;
-    text-decoration: none;
-    position: center;
-}
-.inner-footer a{
-    text-decoration: none;
-}
-.fa{
-	
-    padding: 0px 8px;
+.f-text{
+	font-size: 16px;
+	color: black;
+	margin: 0px 0px 110px;
+
 }
 
-/*footer end*/
+
+.main-footer .f-logo{
+	margin: 0px 0px 30px;
+}
+
+.info{
+	display: block;
+}
+.info li{
+	font-family: 'Bebas Neue', sans-serif;
+	list-style: none;
+	display: block;
+	margin: 0pxd 0px;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	letter-spacing: 2px;
+}
+.info li img{
+	margin: 0px 20px 0px 0px;
+}
+.copyrights{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 16px;
+	color: red;
+	text-transform: uppercase;
+}
+/*.social-icons{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 30px;
+}*/
+
+/*fotter end*/
